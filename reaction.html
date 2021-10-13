@@ -41,13 +41,13 @@
         }
 
         function checkMyTime() {
-            var elem = document.getElementById("target")
+            var element = document.getElementById("target")
             if (myTime == undefined)
-                elem.innerHTML = "Too Slow"
+                element.innerHTML = "Too Slow"
             else {
                 var buttonTime = Date.now()
                 var difference = buttonTime - myTime
-                elem.innerHTML = "Time was " + difference
+                element.innerHTML = "Time was " + difference
             }
         }
     </script>
